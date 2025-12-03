@@ -1,9 +1,9 @@
 {
   "name": "auren-delanri-home",
   "version": "1.0.0",
-"scripts": {
+  "scripts": {
     "dev": "vite",
-    "build": "vite build", 
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
