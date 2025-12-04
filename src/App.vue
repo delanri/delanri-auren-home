@@ -292,8 +292,6 @@ button:hover, a:hover, input:focus, textarea:focus {
     left: 10px !important;
   }
 
-
-  
   .offerings-container, 
   .cage-container {
     zoom: 0.9 !important;
@@ -303,7 +301,6 @@ button:hover, a:hover, input:focus, textarea:focus {
     width: 100vw !important;
     padding-top: calc(env(safe-area-inset-top) + 80px) !important; 
     padding-bottom: calc(env(safe-area-inset-bottom) + 100px) !important; 
-    
     -webkit-overflow-scrolling: touch; 
   }
 
@@ -311,5 +308,6 @@ button:hover, a:hover, input:focus, textarea:focus {
     zoom: 1 !important;
     padding-top: 0 !important;
   }
+  
 }
 </style>

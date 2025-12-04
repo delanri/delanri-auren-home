@@ -1014,6 +1014,7 @@ document.addEventListener('keydown', (e) => {
     overflow-y: auto; 
     background: #f5f1e8; 
     position: relative; 
+    
   }
 
   .desktop-view { display: none !important; }
@@ -1027,7 +1028,7 @@ document.addEventListener('keydown', (e) => {
     max-width: 100%; border-radius: 0; 
     background: #f5f1e8;
     overflow-y: visible;
-    position: relative; 
+    
   }
   
   /* 手机端专用样式 */
@@ -1049,14 +1050,17 @@ document.addEventListener('keydown', (e) => {
     position: fixed !important; 
     top: 15px !important; 
     right: 15px !important;
-    width: 35px; height: 35px;
-    font-size: 2rem;
-    border: none;
-    color: rgba(34, 34, 34, 0.5) !important;
-    border-radius: 50%;
-    z-index: 9000; 
-    display: flex; align-items: center; justify-content: center;
-    backdrop-filter: blur(10px);
+    width: 40px !important; 
+    height: 40px !important;
+    font-size: 1.8rem !important;
+    background: transparent !important; 
+    border: none !important;
+    color: rgba(0, 0, 0, 0.5) !important; 
+    z-index: 9000 !important; 
+    display: flex !important; 
+    align-items: center !important; 
+    justify-content: center !important;
+    outline: none !important;
   }
   
   .pc-only { display: none !important; }

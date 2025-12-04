@@ -1063,7 +1063,7 @@ const closeDocumentViewer = () => { viewingDocument.value = null; };
 
   /* 关闭按钮 */
 .mobile-close-btn {
-     position: absolute !important; 
+    position: absolute !important; 
     top: 10px !important; 
     right: 15px !important;
     width: 40px !important; 
