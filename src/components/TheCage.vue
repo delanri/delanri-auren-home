@@ -1013,6 +1013,7 @@ document.addEventListener('keydown', (e) => {
     padding-top: 0 !important; 
     overflow-y: auto; 
     background: #f5f1e8; 
+    position: relative; 
   }
 
   .desktop-view { display: none !important; }
@@ -1026,6 +1027,7 @@ document.addEventListener('keydown', (e) => {
     max-width: 100%; border-radius: 0; 
     background: #f5f1e8;
     overflow-y: visible;
+    position: relative; 
   }
   
   /* 手机端专用样式 */
@@ -1044,17 +1046,17 @@ document.addEventListener('keydown', (e) => {
   
   /* 关闭按钮 */
   .close-book {
-    position: absolute !important; 
-    top: 10px !important; 
+    position: fixed !important; 
+    top: 15px !important; 
     right: 15px !important;
-    width: 30px; height: 30px;
-    font-size: 1.1rem;
-    background: transparent !important; 
+    width: 35px; height: 35px;
+    font-size: 2rem;
     border: none;
     color: rgba(34, 34, 34, 0.5) !important;
     border-radius: 50%;
     z-index: 9000; 
     display: flex; align-items: center; justify-content: center;
+    backdrop-filter: blur(10px);
   }
   
   .pc-only { display: none !important; }

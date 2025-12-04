@@ -292,6 +292,8 @@ button:hover, a:hover, input:focus, textarea:focus {
     left: 10px !important;
   }
 
+
+  
   .offerings-container, 
   .cage-container {
     zoom: 0.9 !important;
@@ -303,6 +305,11 @@ button:hover, a:hover, input:focus, textarea:focus {
     padding-bottom: calc(env(safe-area-inset-bottom) + 100px) !important; 
     
     -webkit-overflow-scrolling: touch; 
+  }
+
+  .echoes-container.book-opened {
+    zoom: 1 !important;
+    padding-top: 0 !important;
   }
 }
 </style>

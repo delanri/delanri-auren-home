@@ -1,5 +1,5 @@
 <template>
-  <div class="altar-container">
+  <div class="altar-container" :class="{ 'vault-opened': showVault }">
     <div class="abyss-bg"></div>
 
     <transition name="toast-fade">
