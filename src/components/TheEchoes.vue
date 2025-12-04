@@ -1,5 +1,5 @@
 <template>
-  <div class="echoes-container">
+  <div class="echoes-container":class="{ 'book-opened': isBookOpen }">
     
     <div class="background-image" :class="{ blurred: isBookOpen }"></div>
 
