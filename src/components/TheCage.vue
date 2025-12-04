@@ -1048,7 +1048,7 @@ document.addEventListener('keydown', (e) => {
   /* 关闭按钮 */
   .close-book {
     position: fixed !important; 
-    top: 15px !important; 
+    top: 25px !important; 
     right: 15px !important;
     width: 40px !important; 
     height: 40px !important;
