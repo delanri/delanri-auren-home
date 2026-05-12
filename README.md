@@ -1,29 +1,23 @@
-# vue-project
+**Delanri × Auren's Home**
 
-This template should help get you started developing with Vue 3 in Vite.
+沉浸式个人交互系统，基于 Vue 3 + Vite 独立开发，包含五个功能模块。
 
-## Recommended IDE Setup
+**模块说明**
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+导航层（AurenNavigation）— 隐藏式解锁系统，需按特定顺序点击触发龙瞳，结合密码验证、会话续期与24小时封锁机制，支持键盘快捷指令
 
-## Customize configuration
+核心区（TheCore）— 自由画布文件管理器，手写鼠标/触摸双端拖拽引擎，含边界碰撞检测与位置持久化，支持文本/图片文件拖入读取
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+牢笼（TheCage）— 沉浸式书库，内置自定义分页算法（基于字符权重与标点语义切割），中英文首字母分组，拖拽排序，双重密码保护
 
-## Project Setup
+回响（TheEchoes）— 日记本系统，书本翻开动画，支持拖拽文件创建新页面，contenteditable 内联编辑，随机语音反馈池
 
-```sh
-npm install
-```
+献礼（TheOfferings）— 瀑布流画廊，内置安全拦截层（屏蔽右键/复制/F12），动态水印覆盖，灯箱与阅读器模式
 
-### Compile and Hot-Reload for Development
+**技术亮点**
 
-```sh
-npm run dev
-```
+手写拖拽引擎（无第三方库）、隐藏交互序列解锁、自定义分页算法、双端手势适配（iOS Safari兼容）、LocalStorage全量持久化、多层CSS动画系统
 
-### Compile and Minify for Production
+**技术栈** Vue 3 / Vite / CSS3 / JavaScript
 
-```sh
-npm run build
-```
+**演示** [B站视频](https://www.bilibili.com/video/BV1ubPPz9Etp)
